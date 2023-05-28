@@ -1,31 +1,29 @@
-# Python mineracao de texto
 
-Mineração de texto com a biblioteca Natural Language ToolKit(NLTK) do python.
+# Analisador de sentimentos baseado no VADER
 
-# Instalação
+Esse projeto é um analisador de sentimentos baseado no VADER (Valence Aware Dictionary and Sentiment Reasoner) em Python. 
 
-## Biblioteca
+Ele permite que os usuários insiram um texto de sua escolha e o analisa para determinar o sentimento associado a ele. 
 
-Antes de começarmos precisaremos instalar a biblioteca nltk.
+O VADER é uma biblioteca de análise de sentimentos que fornece pontuações de polaridade, como positivo, negativo ou neutro, para o texto fornecido. 
 
-Para isso podemos utilizar o comando:
+## Rodando os testes
 
-    pip install nltk 
+Para rodar os testes, rode o seguinte comando
 
-<i>prompt de comando ou terminal</i>
+1) Clone este repositório ou faça o download dos arquivos.
+```bash
+  git@github.com:Taunt-byte/Python-analisador-de-sentimentos-baseado-no-VADER.git
+```
 
-Após instalar, precisamos fazer o download de algumas coleções da biblioteca nltk, para isso abrimos o prompt de comando, digitamos python e quando aparecer ">>>".
+2) Execute esse comando.
 
-Importaremos a biblioteca nltk
+```bash
+  python jogo_da_velha.py
+```
 
-    import nltk
+## Licença
 
-E em seguida digitamos o seguinte comando
+Este projeto está licenciado sob a MIT License.
 
-    nltk.download() 
-
-Depois basta escrever:
-
-    all
-
-Caso deseja instalar todos os componentes da biblioteca.
+[MIT](https://choosealicense.com/licenses/mit/)
